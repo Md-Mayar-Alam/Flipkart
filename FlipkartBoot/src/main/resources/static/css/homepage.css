@@ -1,0 +1,102 @@
+.body-container .trending-container{
+	height: 280px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.trending-image-container .trending-image{
+	height: 100%;
+}
+
+.trending-container .scrolling-arrow-left{
+	position: absolute;
+	width: 47px;
+	height: 104px;
+	background-color: #fff;
+	left: 0;
+	top: calc(50% - 54px);
+
+	border-top-right-radius: 5px;
+    	border-bottom-right-radius: 5px;
+}
+
+.trending-container .left-arrow{
+	position: relative;
+	top: calc(27%);
+    	left: calc(24%);
+	font-size: 42px;
+	font-weight: 600;
+}
+
+.trending-container .scrolling-arrow-right{
+	position: absolute;
+	width: 47px;
+	height: 104px;
+	background-color: #fff;
+	right: 0;
+	top: calc(50% - 54px);
+	border-top-left-radius: 5px;
+    	border-bottom-left-radius: 5px;
+}
+
+.trending-container .right-arrow{
+	position: relative;
+	top: calc(27%);
+    	left: calc(38%);
+	font-size: 42px;
+	font-weight: 600;
+}
+
+.trending-container .trending-image{
+	width: 100%;
+	height: 280px;
+}
+
+.body-container .deals-of-the-day-container{
+	display: flex;
+	flex-direction: row;
+	height: 380px;
+	background-color: #fafafa;
+}
+
+.body-container .deals-of-the-day-container .deals-of-the-day-semi-container{
+		width: 75%;
+}
+
+.deals-of-the-day-semi-container .dod-inner-container{
+	padding: 20px 20px 20px 20px;
+}
+
+.dod-inner-container .view-all-dod{
+	
+}
+
+.deal-time-left-container .deal-of-the-day-caption{
+	font-size: 22px;
+}
+
+.body-container .deals-of-the-day-container .pocket-friendly-deals-container{
+	width: 25%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

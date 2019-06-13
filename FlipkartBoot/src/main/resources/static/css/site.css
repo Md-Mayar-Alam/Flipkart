@@ -1,0 +1,227 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 14px;
+	font-family: Roboto,Arial,sans-serif;
+	letter-spacing: 0;
+	background-color: #f1f3f6;
+}
+
+a, img{
+	text-decoration: none;
+	color: inherit;
+}
+
+li{
+	list-style: none;
+}
+
+.hide{
+	display: none !important;
+}
+
+.main-container{
+	height: auto;
+	width: 100%;
+}
+
+.main-container .align-in-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.main-container .align-in-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.main-container .justify-space-between{
+	justify-content: space-between;
+}
+
+.main-container .header-container{
+	width: 100%;
+	background-color: #2874f0;
+	color: #ffffff;
+	height: 56px;
+	
+}
+
+.header-container .header-mini-container{
+	height: inherit;
+	margin: 0px 7.5px;
+	padding-left: 180px;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-container .logo-container{
+	height: inherit;
+	padding: 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo-container .explore{
+	font-size: 11px;
+	font-style: italic;
+}
+
+.logo-container .explore-plus{
+	color: #ffe500;
+	font-weight: 500px;
+}
+
+.header-mini-container .search-container{
+	height: inherit;
+	width: calc(100% - 510px);
+	margin: auto auto auto 0;
+	max-width: 584px;
+	padding: 0 12px 0 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header-container .search-container .search{
+	display: flex;
+	flex-direction: row:
+	justify-content: center;
+	height: 38px;
+}
+
+.header-container .search .search-box{
+	width: 90%;
+	padding-left: 3%;
+	border: 0;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.header-container .search .search-button{
+	width: 10%;
+	border: 0;
+	border-radius: 0px 5px 5px 0px;
+	color: #2874f0; 
+	background: #ffffff;
+	font-size: 19px;
+}
+
+.header-container .header-mini-container .auth-container{
+	padding-right: 80px;	
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.header-container .auth-container .display-auth{
+	display: flex;		//these both are another way to set the elements in center
+}
+
+.header-container .auth-container .same-for-all-auth{
+	margin: auto 20px;	//these both are another way to set the elements in center
+}
+
+
+
+.header-container .header-more-container .header-more-angle{
+	margin-left: 6px;
+}
+
+.header-container .cart-container .shopping-cart{
+	    margin-right: 8px;
+}
+
+.main-container .footer-container{
+	background-color: #172337;
+
+}
+
+.footer-container .footer-upper-container{
+	color: #fff;
+	margin-left: 65px;
+	padding-top: 40px;
+	width: 90%;
+}
+
+.footer-container .footer-upper-container .footer-heading{
+	color: #878787;
+	margin-bottom: 10px;
+}
+
+.footer-container .footer-upper-container .footer-content{
+	font-size: 12px;
+	line-height: 2;
+}
+
+.footer-container .footer-upper-container .footer-mail-add-content{
+	font-size: 12px;
+	white-space: nowrap;
+	line-height: 1.4;
+}
+
+.footer-container .footer-upper-container .set-flex1{
+	flex: 1;	
+}
+
+.footer-upper-container .footer-mail-container .footer-mail-mini-container{
+	border-left: 1px solid #454d5e;
+	padding: 0 25px;
+}
+
+
+.main-container .menu-container{
+	height: 40px;
+	background-color: #fff;
+	color: #212121;
+}
+
+.menu-container .menu-bar{
+	padding: 0 16px;
+}
+
+.menu-container .menu-bar .menu-bar-list{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu-bar .menu-bar-list .menu-heading{
+	font-weight: 550;
+	padding: 0 10px;
+}
+
+.menu-width{
+	width: 20%;
+}
+
+.menu-bar .l2-menu{
+	
+}
+
+.l2-menu .l3-menu{
+	color: red;
+}
+
+.l3-menu .l3-menu-li{
+	font-weight: 200;
+}
+
+.ul-temp{
+	position: absolute;
+	top: 96px;
+	left: 53px;
+	width: 1243px;
+	z-index: 1;
+	background-color: #fff;
+}
+
+.li-temp{
+	
+}
