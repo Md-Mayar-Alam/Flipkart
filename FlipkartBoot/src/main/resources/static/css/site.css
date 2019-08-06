@@ -192,28 +192,12 @@ li{
 	justify-content: center;
 }
 
-.menu-bar .menu-bar-list .menu-heading{
+.menu-bar .menu-bar-list .l1-menu-heading{
 	font-weight: 550;
 	padding: 0 10px;
 }
 
-.menu-width{
-	width: 20%;
-}
-
-.menu-bar .l2-menu{
-	
-}
-
-.l2-menu .l3-menu{
-	color: red;
-}
-
-.l3-menu .l3-menu-li{
-	font-weight: 200;
-}
-
-.ul-temp{
+.l2-category-container{
 	position: absolute;
 	top: 96px;
 	left: 53px;
@@ -222,6 +206,27 @@ li{
 	background-color: #fff;
 }
 
-.li-temp{
-	
+.menu-bar .l2-menu{
+	/* Old Chrome, Safari and Opera */
+  	-webkit-column-count: 5;
+  	
+  	/* Old Firefox */
+  	-moz-column-count: 5;
+  	
+  	/* Standard syntax */
+	column-count: 5;
 }
+
+.l2-menu .l2-menu-heading{
+	font-weight: 550;
+	position: relative;
+}
+
+.l2-menu-heading .l3-menu{
+	color: red;
+	position: absolute;
+	left: 10px;
+	font-weight: 100;
+}
+
+

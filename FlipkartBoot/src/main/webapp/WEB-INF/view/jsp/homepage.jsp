@@ -1,6 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="header" tagdir="/WEB-INF/tags/header" %>
 <%@ taglib prefix="footer" tagdir="/WEB-INF/tags/footer" %>
+<%@ taglib prefix="tags" tagdir="/WEB-INF/tags" %>
+
 <html>
 
 <!-- <head>
@@ -56,25 +58,7 @@
 				</div>
 			</div>
 
-			<div class="deals-of-the-day-container">
-				<div class="deals-of-the-day-semi-container">
-					<div class="dod-inner-container">
-						<div class="deal-of-the-day-caption">
-							Deals of the Day
-						</div>
-						<div> 
-							<a href="/viewAllDealOfTheDay" class="view-all-dod">
-								VIEW ALL
-							</a>
-						</div>
-					</div>
-					
-				</div>
-				
-				<div class="pocket-friendly-deals-container">
-					<div>Hello</div>
-				</div>
-			</div>
+			<tags:dealsOfTheDay />
 		</div>
 		
 		<footer:footerContent />

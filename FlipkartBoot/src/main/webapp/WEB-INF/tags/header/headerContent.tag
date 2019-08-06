@@ -58,14 +58,14 @@
 		<ul class="align-in-row justify-space-between">
 			<c:forEach var="l1Category" items="${l1CategoryList }" >
 				<li class="menu-bar-list">
-					<span class="menu-heading">
+					<span class="l1-menu-heading">
 						${l1Category.l1CategoryName }
 						<i class="fa fa-angle-down"></i>
 					 	<i class="fa fa-angle-up hide"></i>
 					</span>
 					
 					
-					<c:if test="${not empty l1Category.l2Categories }">
+					<%-- <c:if test="${not empty l1Category.l2Categories }">
 						<ul class="ul-temp">
 							<li class="li-temp">
 								<ul class="l2-menu hide">
@@ -83,6 +83,25 @@
 								</ul>
 							</li>
 						</ul>
+					</c:if> --%>
+					
+					<c:if test="${not empty l1Category.l2Categories }">
+						<div class="l2-category-container">
+							<ul class="l2-menu hide">
+								<c:forEach var="l2Category" items="${l1Category.l2Categories }">
+									<li class="l2-menu-heading">
+										${l2Category.l2CategoryName }
+										<c:if test="${not empty l2Category.l3Categories }">
+										<ul>
+											<c:forEach var="l3Category" items="${l2Category.l3Categories }">
+												<li class="l3-menu">${l3Category.l3CategoryName }</li><br>
+											</c:forEach>
+										</ul>
+										</c:if>
+									</li>
+								</c:forEach>
+							</ul>
+						</div>
 					</c:if>
 				</li>
 			</c:forEach>
